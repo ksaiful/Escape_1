@@ -1,0 +1,383 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header_main{
+	background-image: url(./img/Escape.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*width: 1400px;
+	height: 622px;*/
+	min-height: 620px;
+	position: relative;
+}
+.container{
+	width: 70%;
+	margin: 0 auto;
+}
+.header_con{
+	overflow: hidden;
+}
+.img{
+	width: 20%;
+	float: left;
+	padding-top: 40px;
+}
+.menu{
+	width: 60%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+    float: left;
+    padding: 40px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+}
+.menu ul li a:hover{
+
+}
+.header_rel{
+    position: absolute;  
+    text-align: center;
+    left: 50px;
+    width: calc(100% - 100px);
+    padding-top: 100px;
+}
+.header_rel p{
+	 color: #C6C4CC;
+    font-size: 32px;
+}
+.header_rel h1{
+	color: #fff;
+    font-size: 66px;
+    font-weight: 700;
+    /*margin-top: 30px;*/
+}
+.header_rel button{
+	background: transparent;
+    border: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+.header_rel button:hover{
+
+}
+.web{
+	padding: 50px 0;
+}
+.container2{
+	width: 65%;
+	margin: 0 auto;
+}
+.web_content{
+	overflow: hidden;
+	
+
+}
+.web1{
+	width: 70%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+.web1 p{
+	font-size: 18px;
+	color: #777777;
+}
+.web1 img{
+	/*border: 1px solid black;*/
+	 width: 400px;
+	margin-bottom: 30px;
+}
+.web_img{
+	width: 25%;
+	float: right;
+	/*border: border: 1px solid black;*/
+}
+.web_img img{
+	width: 100%;
+}
+.brand{
+	background-color: #fafafa;
+	padding: 50px 0;
+	overflow: hidden;
+}
+.brand_content{
+	overflow: hidden;
+}
+.brand_img{
+	width: 25%;
+	float: left;
+	/*border: border: 1px solid black;*/
+}
+.brand_img img{
+	width: 100%;
+	margin-bottom: 30px;
+
+}
+.brand1{
+	width: 70%;
+	float: right;
+	/*border: border: 1px solid black; */
+}
+.brand1 p{
+	font-size: 18px;
+	color: #777777;
+}
+.icon{
+	padding: 50px 0;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.icon_content{
+	overflow: hidden;
+}
+.box{
+	overflow: hidden;
+	float: left;
+	width: 47%;
+	/*border: 1px solid blue;*/
+	padding: 20px 0;
+}
+.box:nth-child(even){
+	padding-right: 6%;
+}
+.box_p{
+	font-size: 22px;
+	color: #222222;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.box_con2{
+	font-size: 18px;
+	color: #777777;
+	text-align: justify;
+}
+.logo{
+	width: 30%;
+	float: left;
+	margin-right: 0;
+	/*border: 1px solid black;*/
+
+}
+.logo img{
+	/*/width: 70px;
+	height: 60px*/*/
+	/*width: 100%;*/*/
+	/*border: 1px solid black;*/
+
+
+}
+.box_con{
+	width: 70%;
+	float: right;
+	/*border: 1px solid black;*/
+}
+.Clients{
+	overflow: hidden;
+	padding: 50px 0;
+	background-color: #FAFAFA;
+}
+.awesome{
+	overflow: hidden;
+}
+.awesome img{
+	        margin-left: 27%;
+    padding: 20px 0;
+}
+.awesome p{
+	text-align: center;
+	font-size: 22px;
+	color: #777777;
+}
+.circle1{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.circle_con{
+	width: 70%;
+	float: right;}
+
+.t_t{
+	font-size: 26px;
+	color: #777777;
+}
+.circle_img{
+	width: 25%;
+	float: left;
+}
+.circle_img img{
+/*border: 1px solid red;*/
+width: 143px;
+}
+.circle2{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.circle2_con{
+	width: 70%;
+	float: left;
+}	
+
+.circle2_img{
+	width:25%;
+	float:right;
+}
+
+.circle2_img img{
+	width: 143px;
+}
+.client_des{
+	padding: 290px 0;
+}
+.client_des img{
+	padding-right: 35px;
+}
+.jam{
+	color: #7690c5;
+	font-size: 20px;
+}
+.team{
+	padding: 50px 0;
+	background-color: #111111;
+}
+.container3{
+	width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.team_container{
+	overflow: hidden;
+}
+.top{
+	text-align: center;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.top h1{
+	color: #fff;
+}
+
+.wlight{
+	
+}
+.wlight, wbold{
+	font-size: 50px;
+	
+}
+.top p{
+	color: #777777;
+	font-size: 22px;
+}
+.team_box{
+	float: left;
+	width: 32%;
+	text-align: center;
+	padding: 50px 0;
+	line-height: 1.8;
+	color: #fff;
+}
+.imgBox{
+
+}
+.name{
+
+}
+.position{
+
+}
+.socialBox2{
+
+}
+.bottom_text{
+	clear: both;
+	color: #fff;
+	text-align: center;
+	line-height: 1.8;
+	padding: 50px 0;
+}
+.hello{
+	padding: 50px 0;
+    background-color: #7690c5;
+    color: #fff;
+    overflow: hidden;
+}
+.hello_content{
+	overflow: hidden;
+	float: left;
+	width: 48%;
+}
+.hello_text{
+
+}
+.hello_text p{
+	line-height: 1.8;
+}
+.hello_text{}
+.hello_1{
+	float: left;
+	width: 45%;
+	padding: 10px 0;
+	overflow: hidden;
+}
+.hello_content{
+	overflow: hidden;
+}
+.all_icon{
+	width: 25%;
+	float: left;
+}
+.icon1{
+	padding-right: 5px;
+}
+.all_text{
+	width: 75%;
+	float: right;
+}
+.all_text p{
+	float: left;
+}
+.hello_form{
+	float: right;
+	width: 48%;
+	color: both;
+}
+.form{
+	overflow: hidden;
+
+}
+.form input[type="text"], .form input[type="email"], .form textarea {
+	     background: #fff;
+    border: none;
+    height: 40px;
+    color: #bbbbbb;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-right: 215px;
+    margin: 10px 0;
+}
+.form textarea {
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.foot_p{
+	padding-top: 175px;
+	text-align: center;
+	margin-top: 100px;
+	clear: both;
+}
